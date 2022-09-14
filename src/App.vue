@@ -14,7 +14,7 @@ export default {
       const valor_gorjeta = this.valor_gorjeta;
       let valor_valor_gorjeta = 0;
       let resultado = {};
-      valor_valor_gorjeta = count * (valor_gorjeta / 100);
+      valor_valor_gorjeta = (((valor * gorgeta) / people) * 100) / 100 }
       resultado = (count + valor_valor_gorjeta) / people;
       resultado = Math.round(resultado);
       document.getElementById("resultado").innerHTML = resultado;
@@ -45,7 +45,7 @@ export default {
       </label>
 
       <label
-        ><p>Qual o número de pessoas dividindo a conta?</p>
+        ><p>Com quantas pessoas irão dividir a conta?</p>
         <input type="text" v-model="people" id="people" />
       </label>
       <button type="button" @click="calcular">
@@ -78,7 +78,7 @@ main {
 button {
   background-color: #b7c4cf;
   border: #ffffff00;
-  color: #239d5c;
+  color: #2b3d33;
   height: 30px;
   width: 500px;
   border-radius: 10px;
